@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 app.use(morgan("dev"))
 app.use("/users",userRouter)
 app.use('/books',bookRoutes);
-app.use('/borrows',borrowRoutes)
+app.use('/loans',borrowRoutes)
 
 
 const port = process.env.PORT;
